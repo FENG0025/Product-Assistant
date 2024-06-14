@@ -1,0 +1,64 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		// {
+		// 	"path" : "pages/login/login",
+		// 	"style" : 
+		// 	{
+		// 		"navigationBarTitleText" : "",
+		// 		"enablePullDownRefresh" : false
+		// 	}
+		// },
+		{
+			"path": "pages/home/home",
+			"style": {
+				"onReachBottomDistance": 60
+			}
+		},
+		{
+			"path": "pages/search/search",
+			"style": {
+				"usingComponents": {}
+			}
+		},
+		{
+			"path": "pages/goods/goods",
+			"style": {
+			}
+		},
+		{
+			"path" : "pages/goods/goodsdetail",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false
+			}
+		}
+		
+	],
+	"tabBar": {
+		"color": "#666",
+		"backgroundColor": "#f0ffff",
+		"selectedColor": "#9aafc8",
+		"list": [
+			{
+				"pagePath": "pages/home/home",
+				"text": "首页",
+				"iconPath": "static/img/tabBar/home.png",
+				"selectedIconPath": "static/img/tabBar/home-on.png"
+			},
+			{
+				"pagePath": "pages/search/search",
+				"text": "检索",
+				"iconPath": "static/img/tabBar/search.png",
+				"selectedIconPath": "static/img/tabBar/search-on.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "feng_program",
+		"navigationBarBackgroundColor": "#f0ffff",
+		"backgroundColor": "#f0ffff"
+	},
+	"uniIdRouter": {}
+}

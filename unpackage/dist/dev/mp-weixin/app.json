@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/search/search",
+    "pages/goods/goods",
+    "pages/goods/goodsdetail"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "feng_program",
+    "navigationBarBackgroundColor": "#f0ffff",
+    "backgroundColor": "#f0ffff"
+  },
+  "tabBar": {
+    "color": "#666",
+    "backgroundColor": "#f0ffff",
+    "selectedColor": "#9aafc8",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "static/img/tabBar/home.png",
+        "selectedIconPath": "static/img/tabBar/home-on.png"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "text": "检索",
+        "iconPath": "static/img/tabBar/search.png",
+        "selectedIconPath": "static/img/tabBar/search-on.png"
+      }
+    ]
+  },
+  "lazyCodeLoading": "requiredComponents",
+  "usingComponents": {}
+}

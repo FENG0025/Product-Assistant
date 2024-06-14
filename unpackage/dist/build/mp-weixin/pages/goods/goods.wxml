@@ -1,0 +1,1 @@
+<view><view class="goods-list"><view class="product-list"><view wx:for="{{a}}" wx:for-item="goods" wx:key="d" class="product" bindtap="{{goods.e}}"><image mode="widthFix" src="{{goods.a}}"></image><view class="name">{{goods.b}}</view><view class="info"><view class="price">{{goods.c}}</view></view></view></view></view></view>
